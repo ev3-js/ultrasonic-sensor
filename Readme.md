@@ -13,17 +13,23 @@ to interact with the ev3-js ultrasonic sensor
 ## Usage
 
 ```js
-var ultrasonicSensor = require('ultrasonic-sensor')
-
+var USSensor = require('ultrasonic-sensor')
+USSensor(3).inches // => 5.2
 ```
 
 ## API
 
-### ultrasonicSensor(arg)
+### ultrasonicSensor(port)
 
-- `arg` -
+- `port` -  number of the port that the color sensor is plugged in to.
 
-**Returns:**
+**Returns:** instance of USSensor
+
+### .inches
+Read the number of inches from the ultra-sonic sensor.
+
+### .cm
+Read the number of cm from the ultra-sonic sensor.
 
 ## License
 
