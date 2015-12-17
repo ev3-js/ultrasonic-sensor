@@ -8,12 +8,12 @@ to interact with the ev3-js ultrasonic sensor
 
 ## Installation
 
-    $ npm install ev3-js-ultrasonic-sensor
+    $ npm install ultrasonic-sensor
 
 ## Usage
 
 ```js
-var ultrasonicSensor = require('ev3-js-ultrasonic-sensor')
+var ultrasonicSensor = require('ultrasonic-sensor')
 
 ```
 
@@ -31,5 +31,5 @@ MIT
 
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
 [standard-url]: https://github.com/feross/standard
-[npm-image]: https://img.shields.io/npm/v/ev3-js-ultrasonic-sensor.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/ev3-js-ultrasonic-sensor
+[npm-image]: https://img.shields.io/npm/v/ultrasonic-sensor.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/ultrasonic-sensor
