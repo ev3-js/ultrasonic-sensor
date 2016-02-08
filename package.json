@@ -2,7 +2,7 @@
   "name": "ultrasonic-sensor",
   "description": "to interact with the ev3-js ultrasonic sensor",
   "repository": "git://github.com/micro-js/ultrasonic-sensor.git",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
